@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/weather/weather",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/routes/routes",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#4D8AD7",
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "/images/map2.png",
+        "selectedIconPath": "/images/map1.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "/images/weather2.png",
+        "selectedIconPath": "/images/weather1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

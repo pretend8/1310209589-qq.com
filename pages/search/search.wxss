@@ -1,0 +1,12 @@
+/* pages/search/search.wxss */
+.search-container .list{
+  padding: 0 30rpx;
+}
+.search-container .list .list-item{
+  font-size: 28rpx;
+  color: #333;
+  text-align: left;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+}

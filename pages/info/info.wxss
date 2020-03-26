@@ -1,0 +1,8 @@
+/* pages/info/info.wxss */
+.info-rows{
+  font-size: 30rpx;
+  text-align: left;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding: 30rpx;
+}

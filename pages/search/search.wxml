@@ -1,0 +1,16 @@
+<!--pages/search/search.wxml-->
+<view class="search-container">
+  <view class="top">
+    <input focus="true" bindinput="bindInput" placeholder="查询地点 公交 地铁" value="{{keywords}}"></input>
+  </view>
+  <view class="list">
+    <view 
+      bindtap="bindSearch"
+      wx:key="index" 
+      data-words="{{item.name}}" 
+      class="list-item"
+      wx:for="{{tips}}">
+      {{item.name}}
+    </view>
+  </view>
+</view>

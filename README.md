@@ -1,2 +1,2 @@
-# 1310209589-qq.com
-miniProgram demo (map)
+# miniProgram-map
+自己练习的小程序demo

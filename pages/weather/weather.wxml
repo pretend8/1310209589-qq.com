@@ -1,0 +1,18 @@
+<!--pages/weather/weather.wxml-->
+<view class="weather">
+  <view>
+    城市：{{weatherData.city}}
+  </view>
+  <view>
+    天气：{{weatherData.temperature}}
+  </view>
+   <view>
+   温度：{{weatherData.humidity}}℃
+  </view>
+   <view>
+   湿度：{{weatherData.humidity}}%
+  </view>
+   <view>
+   风速：{{weatherData.windpower}}级
+  </view>
+</view>

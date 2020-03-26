@@ -1,0 +1,3 @@
+<view class="info-container">
+  <view class="info-rows" wx:for="{{steps}}" wx:key="index">1{{item.instruction}}</view>
+</view>
